@@ -18,7 +18,7 @@ const memoize = (fn) => {
     };
   };
   const slowFunction = (num) => {
-    console.log('Долгое вычисление...');
+    console.log('Тривалий розрахунок...');
     return num * 2;
   };
   const memoizedFunction = memoize(slowFunction);
