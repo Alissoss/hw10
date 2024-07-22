@@ -26,7 +26,7 @@ const memoize = (fn, cacheSize) => {
   };
   
   const slowFunction = (num) => {
-    console.log('Долгое вычисление...');
+    console.log('Тривалий розрахунок...');
     return num * 2;
   };
   
